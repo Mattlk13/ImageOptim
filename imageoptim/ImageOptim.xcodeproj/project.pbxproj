@@ -62,7 +62,6 @@
 		5A7FB6D71E2C37DD00481B4A /* SvgoWorker.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A7FB6D61E2C37DD00481B4A /* SvgoWorker.h */; };
 		5A7FB6F31E2C37EB00481B4A /* SvgoWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7FB6F21E2C37EB00481B4A /* SvgoWorker.m */; };
 		5A7FB7261E2C3E1600481B4A /* svgo.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5A7FB7251E2C3E1600481B4A /* svgo.js */; };
-		5A93FB6A1FF1BB85005D2F27 /* svgcleaner in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5A93FB651FF1BB2C005D2F27 /* svgcleaner */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		5A93FD2F1FF1C452005D2F27 /* SvgcleanerWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A93FD051FF1BF1F005D2F27 /* SvgcleanerWorker.m */; };
 		5A99FE84140AE80600BB2F79 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A99FE83140AE80600BB2F79 /* Quartz.framework */; };
 		5AA1B7E9140AC55F00B5707C /* RevealButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A391880140A9B10001B4FD7 /* RevealButtonCell.m */; };
@@ -90,7 +89,6 @@
 		5ABE161D1AE508FA00861C6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AEF1B2110F2BCB200E3E4F0 /* Foundation.framework */; };
 		5ABE161E1AE5094000861C6B /* pngquant in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5A728F2C1836C0EE004D0D73 /* pngquant */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		5ABE161F1AE5094600861C6B /* pngcrush in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5A1943450FF97F86007C3324 /* pngcrush */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		5ABE16201AE5094A00861C6B /* oxipng in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5A1943680FF980B3007C3324 /* oxipng */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		5ABE16231AE5095B00861C6B /* jpegtran in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5A739C2B0EA4073700D751E1 /* jpegtran */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		5ABE16241AE5096300861C6B /* jpegoptim in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5A62DB07111CCE9F008848D0 /* jpegoptim */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		5ABE16251AE5096800861C6B /* libimageoptimjpeg.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5A20CCA2112393B90000400D /* libimageoptimjpeg.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
@@ -114,6 +112,8 @@
 		5AE04E2E1B5301E100669E85 /* PngquantWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA9F4371899D063006C64C8 /* PngquantWorker.m */; };
 		5AF8536C1B49F21C00CF76F5 /* FadeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF8536B1B49F21C00CF76F5 /* FadeView.m */; };
 		5FD569DD21A059A000BC9F82 /* JobProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD569DC21A059A000BC9F82 /* JobProxy.m */; };
+		5FFC96C1275842310035D0A2 /* oxipng in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5F75B47527583B9B0072F27A /* oxipng */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		5FFC9752275843210035D0A2 /* svgcleaner in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5FFC9750275843160035D0A2 /* svgcleaner */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		D047E4651E7C3D7C0036F96B /* GuetzliWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = D047E4641E7C3D7C0036F96B /* GuetzliWorker.m */; };
 		D047E5311E7D90DD0036F96B /* guetzli in CopyFiles */ = {isa = PBXBuildFile; fileRef = D047E4861E7D7E310036F96B /* guetzli */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
@@ -126,13 +126,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = 8DD76FB20486AB0100D96B5E;
 			remoteInfo = pngcrush;
-		};
-		5A1943670FF980B3007C3324 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5A9D56BC0E7F242C000F129F /* oxipng.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8DD76FB20486AB0100D96B5E;
-			remoteInfo = oxipng;
 		};
 		5A1EBED217908F8200361F08 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -246,20 +239,6 @@
 			remoteGlobalIDString = 5A7FB7051E2C39CC00481B4A;
 			remoteInfo = SVGO;
 		};
-		5A93FB641FF1BB2C005D2F27 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5A93FB491FF1BB2C005D2F27 /* svgcleaner.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = CA6078BC43D03F68F4F5D17F;
-			remoteInfo = svgcleaner;
-		};
-		5A93FB671FF1BB58005D2F27 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5A93FB491FF1BB2C005D2F27 /* svgcleaner.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = CA60E3E260F98DABB6BB56B9;
-			remoteInfo = svgcleaner;
-		};
 		5A95D412139D72A8005FD6FB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5A20CC8E1123939C0000400D /* libpng.xcodeproj */;
@@ -358,13 +337,6 @@
 			remoteGlobalIDString = 8DD76FA90486AB0100D96B5E;
 			remoteInfo = jpegtran;
 		};
-		5ABE16131AE508C200861C6B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5A9D56BC0E7F242C000F129F /* oxipng.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = CA60BD34242C38D887DBE21F;
-			remoteInfo = oxipng;
-		};
 		5ABE16151AE508C200861C6B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5A1943390FF97F86007C3324 /* pngcrush.xcodeproj */;
@@ -399,6 +371,62 @@
 			proxyType = 2;
 			remoteGlobalIDString = 726B2B5D1C645FC900388755;
 			remoteInfo = "UI Tests";
+		};
+		5F75B47427583B9B0072F27A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A9D56BC0E7F242C000F129F /* oxipng.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CA60B9BBFEB6CD5654E156DF;
+			remoteInfo = "oxipng-bin";
+		};
+		5FFC969A275842290035D0A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A9D56BC0E7F242C000F129F /* oxipng.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = CA604CC8B9EA3304D77DE321;
+			remoteInfo = "oxipng-bin";
+		};
+		5FFC96B7275842290035D0A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A5811931AD73A630001838D /* Sparkle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5AB8F19F214DA72000A1187F;
+			remoteInfo = generate_keys;
+		};
+		5FFC96B9275842290035D0A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A5811931AD73A630001838D /* Sparkle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5A5ADED7214EDE4900DF0099;
+			remoteInfo = sign_update;
+		};
+		5FFC96BB275842290035D0A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A5811931AD73A630001838D /* Sparkle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EA4311EA229D651300A5503D;
+			remoteInfo = bsdiff;
+		};
+		5FFC96BD275842290035D0A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A5811931AD73A630001838D /* Sparkle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EA4311A0229D5FBC00A5503D;
+			remoteInfo = ed25519;
+		};
+		5FFC974F275843160035D0A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A93FB491FF1BB2C005D2F27 /* svgcleaner.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CA6070D14537821B170C4A65;
+			remoteInfo = "svgcleaner-bin";
+		};
+		5FFC9753275843280035D0A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A93FB491FF1BB2C005D2F27 /* svgcleaner.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = CA600A1AC43BC85FF6ADA083;
+			remoteInfo = "svgcleaner-bin";
 		};
 		D047E45F1E7C3CE80036F96B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -444,11 +472,11 @@
 				5ABE16231AE5095B00861C6B /* jpegtran in CopyFiles */,
 				5ABE16251AE5096800861C6B /* libimageoptimjpeg.dylib in CopyFiles */,
 				5ABE16291AE5099500861C6B /* liblibpng.dylib in CopyFiles */,
-				5ABE16201AE5094A00861C6B /* oxipng in CopyFiles */,
+				5FFC96C1275842310035D0A2 /* oxipng in CopyFiles */,
 				5ABE161F1AE5094600861C6B /* pngcrush in CopyFiles */,
 				5ABE15841AE5074900861C6B /* pngout in CopyFiles */,
 				5ABE161E1AE5094000861C6B /* pngquant in CopyFiles */,
-				5A93FB6A1FF1BB85005D2F27 /* svgcleaner in CopyFiles */,
+				5FFC9752275843210035D0A2 /* svgcleaner in CopyFiles */,
 				5A7FB7261E2C3E1600481B4A /* svgo.js in CopyFiles */,
 				5ABE162A1AE5099F00861C6B /* zopflipng in CopyFiles */,
 			);
@@ -917,7 +945,7 @@
 		5A1943640FF980B3007C3324 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5A1943680FF980B3007C3324 /* oxipng */,
+				5F75B47527583B9B0072F27A /* oxipng */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -961,7 +989,11 @@
 				5A5811A51AD73A640001838D /* BinaryDelta */,
 				D047E4601E7C3CE80036F96B /* fileop */,
 				D047E4621E7C3CE80036F96B /* generate_appcast */,
+				5FFC96B8275842290035D0A2 /* generate_keys */,
+				5FFC96BA275842290035D0A2 /* sign_update */,
 				5A5811A71AD73A640001838D /* Autoupdate.app */,
+				5FFC96BC275842290035D0A2 /* libbsdiff.a */,
+				5FFC96BE275842290035D0A2 /* libed25519.a */,
 				5A5811A81AD73A640001838D /* Sparkle Test App.app */,
 				5A5811A91AD73A640001838D /* Sparkle Unit Tests.xctest */,
 				5A5811AF1BD73A640001838D /* Sparkle.framework */,
@@ -998,7 +1030,7 @@
 		5A93FB4A1FF1BB2C005D2F27 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5A93FB651FF1BB2C005D2F27 /* svgcleaner */,
+				5FFC9750275843160035D0A2 /* svgcleaner */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1024,6 +1056,8 @@
 				1AD5B250174F850900BC75FD /* GetQueueCountCommand.m */,
 				5A0D2E5B0C922D6D00FD7CDE /* ImageOptimController.h */,
 				5A0D2E5C0C922D6D00FD7CDE /* ImageOptimController.m */,
+				5FD569DB21A059A000BC9F82 /* JobProxy.h */,
+				5FD569DC21A059A000BC9F82 /* JobProxy.m */,
 				5AACA7BA0CAFD0D2004D45CA /* MyTableView.h */,
 				5A714AAC0CB0196A00C242C0 /* MyTableView.m */,
 				5A6242060CA86DC7005942A3 /* PrefsController.h */,
@@ -1032,8 +1066,6 @@
 				5A391880140A9B10001B4FD7 /* RevealButtonCell.m */,
 				5AACA82F0CAFE74E004D45CA /* Transformers.h */,
 				5AACA8300CAFE74E004D45CA /* Transformers.m */,
-				5FD569DB21A059A000BC9F82 /* JobProxy.h */,
-				5FD569DC21A059A000BC9F82 /* JobProxy.m */,
 			);
 			name = Frontend;
 			sourceTree = "<group>";
@@ -1204,12 +1236,12 @@
 			buildRules = (
 			);
 			dependencies = (
-				5A93FB681FF1BB58005D2F27 /* PBXTargetDependency */,
+				5FFC9754275843280035D0A2 /* PBXTargetDependency */,
+				5FFC969B275842290035D0A2 /* PBXTargetDependency */,
 				D047E4CD1E7D81040036F96B /* PBXTargetDependency */,
 				5A7FB7241E2C3DF800481B4A /* PBXTargetDependency */,
 				5AB114B11B52AEE700A3C73A /* PBXTargetDependency */,
 				5ABE16101AE508C200861C6B /* PBXTargetDependency */,
-				5ABE16141AE508C200861C6B /* PBXTargetDependency */,
 				5ABE16161AE508C200861C6B /* PBXTargetDependency */,
 				5ABE16181AE508C200861C6B /* PBXTargetDependency */,
 				5ABE161A1AE508C200861C6B /* PBXTargetDependency */,
@@ -1292,7 +1324,6 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1000;
 				TargetAttributes = {
 					5AC64EFD1AF3FDEE0032AA7F = {
@@ -1353,6 +1384,13 @@
 				ro,
 				"zh-Hans",
 				ar,
+				nl,
+				fi,
+				de,
+				it,
+				pl,
+				uk,
+				Base,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* ImageOptim */;
 			projectDirPath = "";
@@ -1429,13 +1467,6 @@
 			fileType = "compiled.mach-o.executable";
 			path = pngcrush;
 			remoteRef = 5A1943440FF97F86007C3324 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5A1943680FF980B3007C3324 /* oxipng */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = oxipng;
-			remoteRef = 5A1943670FF980B3007C3324 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		5A1EBED317908F8200361F08 /* zopflipng */ = {
@@ -1522,13 +1553,6 @@
 			remoteRef = 5A739C2A0EA4073700D751E1 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		5A93FB651FF1BB2C005D2F27 /* svgcleaner */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = svgcleaner;
-			remoteRef = 5A93FB641FF1BB2C005D2F27 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		5A95D413139D72A8005FD6FB /* libstatic.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1555,6 +1579,48 @@
 			fileType = wrapper.cfbundle;
 			path = "UI Tests.xctest";
 			remoteRef = 5ADDF2FE1CE613A800B4AD58 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5F75B47527583B9B0072F27A /* oxipng */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = oxipng;
+			remoteRef = 5F75B47427583B9B0072F27A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5FFC96B8275842290035D0A2 /* generate_keys */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = generate_keys;
+			remoteRef = 5FFC96B7275842290035D0A2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5FFC96BA275842290035D0A2 /* sign_update */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = sign_update;
+			remoteRef = 5FFC96B9275842290035D0A2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5FFC96BC275842290035D0A2 /* libbsdiff.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libbsdiff.a;
+			remoteRef = 5FFC96BB275842290035D0A2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5FFC96BE275842290035D0A2 /* libed25519.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libed25519.a;
+			remoteRef = 5FFC96BD275842290035D0A2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5FFC9750275843160035D0A2 /* svgcleaner */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = svgcleaner;
+			remoteRef = 5FFC974F275843160035D0A2 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		D047E4601E7C3CE80036F96B /* fileop */ = {
@@ -1754,9 +1820,9 @@
 				5ABE16D01AE5AD0200861C6B /* FilesController.m in Sources */,
 				1AD5B259174FEA6200BC75FD /* GetQueueCountCommand.m in Sources */,
 				5ABE16621AE50D1D00861C6B /* ImageOptimController.m in Sources */,
+				5FD569DD21A059A000BC9F82 /* JobProxy.m in Sources */,
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				5A714AAD0CB0196A00C242C0 /* MyTableView.m in Sources */,
-				5FD569DD21A059A000BC9F82 /* JobProxy.m in Sources */,
 				5A6242080CA86DC7005942A3 /* PrefsController.m in Sources */,
 				5AA1B7E9140AC55F00B5707C /* RevealButtonCell.m in Sources */,
 				5AACA8310CAFE74E004D45CA /* Transformers.m in Sources */,
@@ -1785,11 +1851,6 @@
 			isa = PBXTargetDependency;
 			target = 5A7FB7051E2C39CC00481B4A /* SVGO */;
 			targetProxy = 5A7FB7231E2C3DF800481B4A /* PBXContainerItemProxy */;
-		};
-		5A93FB681FF1BB58005D2F27 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = svgcleaner;
-			targetProxy = 5A93FB671FF1BB58005D2F27 /* PBXContainerItemProxy */;
 		};
 		5AB114B11B52AEE700A3C73A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1846,11 +1907,6 @@
 			name = jpegtran;
 			targetProxy = 5ABE160F1AE508C200861C6B /* PBXContainerItemProxy */;
 		};
-		5ABE16141AE508C200861C6B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = oxipng;
-			targetProxy = 5ABE16131AE508C200861C6B /* PBXContainerItemProxy */;
-		};
 		5ABE16161AE508C200861C6B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = pngcrush;
@@ -1870,6 +1926,16 @@
 			isa = PBXTargetDependency;
 			target = 5AC64EFD1AF3FDEE0032AA7F /* ImageOptimize */;
 			targetProxy = 5AC64F0A1AF3FDEE0032AA7F /* PBXContainerItemProxy */;
+		};
+		5FFC969B275842290035D0A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "oxipng-bin";
+			targetProxy = 5FFC969A275842290035D0A2 /* PBXContainerItemProxy */;
+		};
+		5FFC9754275843280035D0A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "svgcleaner-bin";
+			targetProxy = 5FFC9753275843280035D0A2 /* PBXContainerItemProxy */;
 		};
 		D047E4CD1E7D81040036F96B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
